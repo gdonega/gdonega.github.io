@@ -1,0 +1,38 @@
+/* Configure Fonts */
+@font-face {
+    font-family: RBold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: RThinItalic;
+    src: url('../fonts/Roboto-ThinItalic.ttf');
+}
+
+
+/* Configure Texts */
+h1 {
+    font-family: RBold, 'Segoe UI';
+    font-size: 35pt;
+}
+h3 {
+    font-family: RThinItalic, 'Segoe UI';
+    font-size: 23pt;
+}
+
+
+/* Background */
+#html {
+    background-color: #3f3d3d;
+    padding: 50px;
+}
+
+
+/* Document */
+#document {
+    background-color: #ffffff;
+}
+
+/* Sections */
+#contact {
+    
+}

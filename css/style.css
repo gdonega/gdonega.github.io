@@ -12,27 +12,91 @@
 /* Configure Texts */
 h1 {
     font-family: RBold, 'Segoe UI';
-    font-size: 35pt;
+    font-size: 55px;
 }
 h3 {
     font-family: RThinItalic, 'Segoe UI';
-    font-size: 23pt;
+    font-size: 43px;
 }
 
+
+* {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+  
 
 /* Background */
 #html {
     background-color: #3f3d3d;
-    padding: 50px;
+    padding: 20px;
 }
 
 
 /* Document */
 #document {
     background-color: #ffffff;
+    /* display: flex;
+    justify-items: center; */
 }
 
-/* Sections */
-#contact {
+
+
+/* Document.header*/
+.headerTexts{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+#document header h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#document header h3{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: initial !important;
+    color: #606060;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* Document.header.contacts*/
+#contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contacts div {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
     
+    margin: 5px;
+}
+
+#contacts div * {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#contacts div img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+#contacts div p, #contacts div a{
+    color: #606060;
 }

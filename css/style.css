@@ -18,6 +18,10 @@ h1 {
     font-family: RBold, 'Segoe UI';
     font-size: 40px;
 }
+h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
 h3 {
     font-family: RThinItalic, 'Segoe UI';
     font-size: 30px;
@@ -89,7 +93,10 @@ h3 {
     justify-content: center;
     align-items: center;
     
-    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
 }
 
 #contacts div * {
@@ -112,8 +119,13 @@ h3 {
 /* sections-cv */
 .sections-cv div {
     display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.sections-cv > * {
+    margin-left: 5vw;
 }
 .sections-cv div img{
-    width: 2vw;
+    width: 30px;
     margin-right: 5px;
 }

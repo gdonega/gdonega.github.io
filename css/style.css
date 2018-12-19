@@ -7,16 +7,20 @@
     font-family: RThinItalic;
     src: url('../fonts/Roboto-ThinItalic.ttf');
 }
+@font-face {
+    font-family: RRegular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
 
 
 /* Configure Texts */
 h1 {
     font-family: RBold, 'Segoe UI';
-    font-size: 55px;
+    font-size: 40px;
 }
 h3 {
     font-family: RThinItalic, 'Segoe UI';
-    font-size: 43px;
+    font-size: 30px;
 }
 
 
@@ -30,7 +34,9 @@ h3 {
 /* Background */
 #html {
     background-color: #3f3d3d;
-    padding: 20px;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 20px;
 }
 
 
@@ -99,4 +105,15 @@ h3 {
 
 #contacts div p, #contacts div a{
     color: #606060;
+    font-family: RRegular, 'Segoe UI';
+}
+
+
+/* sections-cv */
+.sections-cv div {
+    display: flex;
+}
+.sections-cv div img{
+    width: 2vw;
+    margin-right: 5px;
 }

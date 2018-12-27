@@ -1,0 +1,16 @@
+/* sections - general*/
+.sections>* {
+    margin-left: 5vw;
+}
+
+/*title*/
+.sections-titles {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.sections-titles img {
+    width: 30px;
+    margin-right: 5px;
+}

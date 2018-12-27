@@ -1,0 +1,13 @@
+/* Background */
+#html {
+    background-color: #3f3d3d;
+    padding-right: 35px;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}

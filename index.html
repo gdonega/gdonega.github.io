@@ -14,50 +14,206 @@
     <link rel="icon" href="img/icon.svg">
 
     <!-- CSS's -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-contacts.css">
+    <link rel="stylesheet" href="css/style-document.css">
+    <link rel="stylesheet" href="css/style-fonts.css">
+    <link rel="stylesheet" href="css/style-general.css">
+    <link rel="stylesheet" href="css/style-sections-graduations-courses.css">
+    <link rel="stylesheet" href="css/style-sections.css">
+    <link rel="stylesheet" href="css/style-texts.css">
 </head>
 
 <body id="html">
+
+    <!-- Curriculum's beginning  -->
     <article id="document">
-        <header class="headerTexts">
+
+
+        <!-- Curriculum's header -->
+        <header id="document-header">
+
+            <!-- Base information  -->
             <h1>Gustavo Donegá Queiroz</h1>
             <h3>Desenvolvedor</h3>
 
-            <section id="contacts">
+
+            <!-- Contacts  -->
+            <div id="contacts">
                 <div>
-                    <img src="img/email.svg" alt="Email image">
+                    <img src="img/email.svg" alt="Email imagem">
                     <a href="mailto:gustavo.dq.27@hotmail.com">gustavo.dq.27@hotmail.com</a>
                 </div>
 
                 <div>
-                    <img src="img/phone.svg" alt="Phone image">
+                    <img src="img/phone.svg" alt="Telefone imagem">
                     <p>+55 11 98453-5863</p>
                 </div>
 
                 <div>
-                    <img src="img/linkedin.svg" alt="Linkedin image">
-                    <a href="https://www.linkedin.com/in/gustavodonega">Linkedin</a>
+                    <img src="img/linkedin.svg" alt="Linkedin imagem">
+                    <a target="_blank" href="https://www.linkedin.com/in/gustavodonega">Linkedin</a>
                 </div>
 
                 <div>
-                    <img src="img/github/png/GitHub-Mark-120px-plus.png" alt="GitHub image">
-                    <a href="https://github.com/gdonega">GitHub</a>
+                    <img src="img/github/png/GitHub-Mark-120px-plus.png" alt="GitHub imagem">
+                    <a target="_blank" href="https://github.com/gdonega">GitHub</a>
                 </div>
-
-            </section>
+            </div>
         </header>
 
-        <section class="sections-cv">
-            <div>
-                <img src="img/business.svg" alt="Soft Skills image">
+
+        <!-- Curriculum's body -->
+        <!-- Soft Skills -->
+        <section class="sections">
+            <!-- Title -->
+            <div class="sections-titles">
+                <img src="img/business.svg" alt="Soft Skills imagem">
                 <h2>Soft Skills</h2>
             </div>
-            <ul>
-                <li>Capacidade de lidar e aprender tecnologias que desconhece;</li>
-                <li>Experiência em trabalhar em equipe;</li>
-            </ul>
+
+            <!-- Body -->
+            <div class="sections-lists">
+                <ul>
+                    <li>Experiência em trabalhar em equipe;</li>
+                    <li>Capacidade de lidar e aprender tecnologias que desconhece;</li>
+                </ul>
+            </div>
+        </section>
+
+
+        <!-- Graduations -->
+        <section class="sections">
+            <!-- Title -->
+            <div class="sections-titles">
+                <img src="img/degree.svg" alt="Formação imagem">
+                <h2>Formação</h2>
+            </div>
+
+            <!-- Body -->
+            <div class="sections-graduations-courses">
+                <div>
+                    <h5>Técnico em informática</h5>
+                    <p class="sections-graduations-courses-foundations">SENAI</p>
+                    <p>2017 - 2018</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Courses -->
+        <section class="sections">
+            <!-- Title -->
+            <div class="sections-titles">
+                <img src="img/course.svg" alt="Cursos imagem">
+                <h2>Cursos Complementares</h2>
+            </div>
+
+            <!-- Body -->
+            <div class="sections-graduations-courses">
+                <div>
+                    <h5>Code Experience, Mobile</h5>
+                    <p class="sections-graduations-courses-foundations">SENAI</p>
+                    <p>2015 - 2016</p>
+                </div>
+
+                <div>
+                    <h5>Curso de apredizagem industrial de eletrecista de manutenção</h5>
+                    <p class="sections-graduations-courses-foundations">SENAI</p>
+                    <p>2017 - 2018</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section class="sections">
+            <!-- Title -->
+            <div class="sections-titles">
+                <img src="img/project.svg" alt="Projetos imagem">
+                <h2>Projetos</h2>
+            </div>
+
+            <!-- Body -->
+            <div class="sections-projects-desc">
+                <div>
+                    <h4>TCC - Técnico em informática</h4>
+                    <h5>Resumo</h5>
+                    <p>Cotagro - Plataforma requisitada pela empresa Jiros com o objetivo de agilizar o processo de
+                        negociações de produtos agropecuários. Os usuários com interesse em solicitar cotações,
+                        escolhem os produtos que desejam comprar e as pessoas com as quais deseja negociar, no final
+                        ele escolhe o melhor negócio, fecha um pedido e gera um PDF com os produtos comprados e de quem
+                        ele comprou.</p>
+                    <h5>Tecnologias trabalhadas</h5>
+                    <ul>
+                        <li>
+                            Java – Spring boot
+                            <ul>
+                                <li>JPA</li>
+                                <li>JDBC</li>
+                                <li>Spring Security</li>
+                                <li>Spring MVC</li>
+                                <li>Spring Data Rest</li>
+                                <li>Spring Email</li>
+                                <li>Thymeleaf</li>
+                                <li>Itext</li>
+                                <li>Flying Saucer</li>
+                                <li>Jwt</li>
+                                <li>Jackson</li>
+                                <li>POI</li>
+                            </ul>
+                        </li>
+                        <li>JavaScript - VueJS
+                            <ul>
+                                <li>VueX</li>
+                                <li>Bootstrap Vue</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div>
+                    <h4>Projeto - Code Experience</h4>
+                    <h5>Resumo</h5>
+                    <p>Plataforma desenvolvida para o Senai, com o objetivo de auxiliar o combate, dos coordenadores, à
+                        evasão escolar. O sistema interno do Senai permite aos funcionários (professores,
+                        coordenadores, etc...) extraírem planilhas com a presença e notas dos alunos, o projeto utiliza
+                        esses arquivos para analisar a situação dos alunos e alertar os funcionários sobre os alunos
+                        que podem evadir.</p>
+                    <h5>Tecnologias trabalhadas</h5>
+                    <ul>
+                        <li>
+                            Java - Android
+                            <ul>
+                                <li>Retroft</li>
+                                <li>Gson</li>
+                                <li>Recycler View</li>
+                                <li>Glide</li>
+                            </ul>
+                        </li>
+                        <li>
+                            C# - .Net Core 2.0
+                            <ul>
+                                <li>Entity Framework</li>
+                                <li>LINQ</li>
+                                <li>NPOI</li>
+                                <li>ASP.NET Core MVC</li>
+                                <li>ASP.NET Web API</li>
+                            </ul>
+                        </li>
+                        <li>
+                            JavaScript - ReactJS
+                            <ul>
+                                <li>Styled Components</li>
+                                <li>Font Awesome</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </article>
+
 </body>
 
 </html>

@@ -1,0 +1,13 @@
+/* Configure Fonts */
+@font-face {
+    font-family: RBold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: RThinItalic;
+    src: url('../fonts/Roboto-ThinItalic.ttf');
+}
+@font-face {
+    font-family: RRegular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}

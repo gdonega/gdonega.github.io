@@ -1,0 +1,36 @@
+/* Document.header.contacts*/
+#contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contacts div {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#contacts div * {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#contacts div img{
+    width: 18px;
+    margin-right: 5px;
+}
+
+#contacts div p, #contacts div a{
+    color: #606060;
+    font-family: RRegular, 'Segoe UI';
+}

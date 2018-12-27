@@ -1,0 +1,13 @@
+/* Configure Texts */
+h1 {
+    font-family: RBold, 'Segoe UI';
+    font-size: 40px;
+}
+h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h3 {
+    font-family: RThinItalic, 'Segoe UI';
+    font-size: 30px;
+}

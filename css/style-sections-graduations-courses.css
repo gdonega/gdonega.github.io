@@ -1,0 +1,27 @@
+.sections-graduations-courses {
+    justify-self: center;
+    padding: 10px;
+}
+
+.sections-graduations-courses div {
+    display: grid;
+    grid-template-columns: 1fr 1fr [end];
+    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    margin-left: 10;
+    margin-right: 10;
+}
+
+.sections-graduations-courses div > * {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.sections-graduations-courses-foundations {
+    grid-area: 1 / 2/ 2 end/ 2;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+}

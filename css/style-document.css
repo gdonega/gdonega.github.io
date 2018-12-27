@@ -1,0 +1,26 @@
+/* Document */
+#document {
+    background-color: #ffffff;
+}
+
+/* Document.header*/
+#document-header{
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+#document-header h1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#document-header h3{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: initial !important;
+    color: #606060;
+
+    margin-top: 0px;
+    margin-bottom: 20px;
+}

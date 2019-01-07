@@ -11,7 +11,7 @@
     flex-direction: row;
 
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     
     margin-top: 15px;
     margin-bottom: 15px;
@@ -30,7 +30,3 @@
     margin-right: 5px;
 }
 
-#contacts div p, #contacts div a{
-    color: #606060;
-    font-family: RRegular, 'Segoe UI';
-}

@@ -4,10 +4,34 @@ h1 {
     font-size: 40px;
 }
 h2 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-}
-h3 {
     font-family: RThinItalic, 'Segoe UI';
     font-size: 30px;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: initial !important;
+    color: #606060;
 }
+h3 {
+    font-family: RMedium, 'Segoe UI';
+    font-size: 25px;
+}
+p, li, h5{
+    font-family: RLight, 'Segoe UI';
+    font-size: 18px;
+}
+
+
+/*Contacts*/
+#contacts div p, #contacts div a{
+    font-family: RRegular, 'Segoe UI';
+    color: #606060;
+    text-decoration-line: none;
+}
+#contacts div a:hover{
+    text-decoration-line: underline;   
+    color: #252525;
+}
+
+
+

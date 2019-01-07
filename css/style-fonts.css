@@ -11,3 +11,11 @@
     font-family: RRegular;
     src: url('../fonts/Roboto-Regular.ttf');
 }
+@font-face {
+    font-family: RMedium;
+    src: url('../fonts/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: RLight;
+    src: url('../fonts/Roboto-Light.ttf');
+}

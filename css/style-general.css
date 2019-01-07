@@ -1,9 +1,10 @@
 /* Background */
 #html {
     background-color: #3f3d3d;
-    padding-right: 35px;
-    padding-left: 35px;
-    padding-top: 20px;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
 }
 
 * {

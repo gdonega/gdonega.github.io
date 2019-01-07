@@ -1,13 +1,21 @@
 /* Document */
 #document {
     background-color: #ffffff;
-    padding: 50px;
+    padding: 2vw;
 }
 
 /* Document.header*/
-#document-header{
+#document-header {
     justify-self: center;
     align-self: center;
     text-align: center;
 }
 
+/*Titles*/
+#document-header>h1 {
+    margin-bottom: 0px;
+}
+
+#document-header>h2 {
+    margin-top: 0px;
+}

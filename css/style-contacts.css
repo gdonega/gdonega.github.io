@@ -2,21 +2,21 @@
 #contacts {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px;
 }
 
 #contacts div {
     display: flex;
-    flex: 1;
     flex-wrap: wrap;
     flex-direction: row;
-
     justify-content: center;
     align-items: baseline;
     
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 #contacts div * {

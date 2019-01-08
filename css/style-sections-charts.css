@@ -1,0 +1,13 @@
+.sections-charts > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    max-width: 100px;
+}
+
+.sections-charts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

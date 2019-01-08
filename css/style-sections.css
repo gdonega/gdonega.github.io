@@ -5,7 +5,7 @@
 }
 
 .sections-body{
-    width: 60vw;
+    max-width: 60vw;
     
     align-self: center;
     justify-self: center;

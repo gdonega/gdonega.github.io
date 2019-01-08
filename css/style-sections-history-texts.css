@@ -1,9 +1,9 @@
-.sections-graduations-courses p {
+.sections-history p {
     font-family: RLight, 'Segoe UI';
 }
 
 @media screen and (max-width: 800px) {
-    .sections-graduations-courses p {
+    .sections-history p {
         font-size: 15px;
         width: 50%;
     }
@@ -11,7 +11,7 @@
 
 
 @media screen and (min-width: 800px) {
-    .sections-graduations-courses p {
+    .sections-history p {
         font-size: 18px;
     }
 }

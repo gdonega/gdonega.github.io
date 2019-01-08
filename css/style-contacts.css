@@ -3,20 +3,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 40px;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    
+    padding-left: 4vw;
+    padding-right: 4vw;
+
+    padding-bottom: 1vh;
+    padding-top: 3vh;
+
+    border-bottom-style: double;
+    border-bottom-color: rgb(63,61,61, 0.2);
 }
 
 #contacts div {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: baseline;
     
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 #contacts div * {

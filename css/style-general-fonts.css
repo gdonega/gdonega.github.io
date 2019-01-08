@@ -19,3 +19,7 @@
     font-family: RLight;
     src: url('../fonts/Roboto-Light.ttf');
 }
+@font-face {
+    font-family: RThin;
+    src: url('../fonts/Roboto-Thin.ttf');
+}

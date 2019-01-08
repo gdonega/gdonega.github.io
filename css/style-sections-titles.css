@@ -1,0 +1,24 @@
+.sections-titles {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 80px;
+    margin-bottom: 0px; */
+
+
+    
+}
+
+.sections-titles img {
+    margin-left: 0px;
+    height: 24px;
+}
+
+.sections-titles>* {
+    padding: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}

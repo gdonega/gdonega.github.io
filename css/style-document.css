@@ -9,13 +9,8 @@
     justify-self: center;
     align-self: center;
     text-align: center;
+
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
-/*Titles*/
-#document-header>h1 {
-    margin-bottom: 0px;
-}
-
-#document-header>h2 {
-    margin-top: 0px;
-}

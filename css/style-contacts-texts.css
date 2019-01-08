@@ -1,0 +1,16 @@
+#contacts div p {
+    font-family: RRegular, 'Segoe UI';
+    color: #606060;
+    text-decoration-line: none;
+}
+
+#contacts div a {
+    font-family: RRegular, 'Segoe UI';
+    color: #606060;
+    text-decoration-line: none;
+}
+
+#contacts div a:hover {
+    text-decoration-line: underline;
+    color: #252525;
+}

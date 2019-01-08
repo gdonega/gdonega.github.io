@@ -10,28 +10,25 @@ h2 {
     text-overflow: ellipsis;
     overflow: hidden;
     word-wrap: initial !important;
-    color: #606060;
+    color: #625555;
 }
 h3 {
     font-family: RMedium, 'Segoe UI';
-    font-size: 25px;
+    font-size: 22px;
 }
-p, li, h5{
+h4 {
+    font-family: RThin, 'Segoe UI';
+    font-size: 20px;
+}
+h5{
+    font-family: RLight, 'Segoe UI';
+    font-size: 18px;
+}
+li{
     font-family: RLight, 'Segoe UI';
     font-size: 18px;
 }
 
-
-/*Contacts*/
-#contacts div p, #contacts div a{
-    font-family: RRegular, 'Segoe UI';
-    color: #606060;
-    text-decoration-line: none;
-}
-#contacts div a:hover{
-    text-decoration-line: underline;   
-    color: #252525;
-}
 
 
 

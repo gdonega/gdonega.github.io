@@ -1,6 +1,7 @@
-.sections-lists ul{
-    padding-left:0px; 
+.sections-lists ul {
+    padding-left: 0px;
 }
-.sections-lists ul li{
+
+.sections-lists ul li {
     list-style-position: inside;
 }

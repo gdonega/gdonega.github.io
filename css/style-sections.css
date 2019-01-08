@@ -4,12 +4,20 @@
     margin-bottom: 50px;
 }
 
-.sections-body{
-    width: 800px;
-    
-    align-self: center;
-    justify-self: center;
-    
+.sections-body {
+    max-width: 600px;
+    max-width: 600px;
 }
 
+@media screen and (max-width: 800px) {
+    .sections-body {
+        align-self: center;
+        justify-self: center;
+    }
+}
 
+@media screen and (min-width: 800px) {
+    .sections-body {
+        margin-left: 50px;
+    }
+}

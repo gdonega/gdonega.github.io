@@ -1,24 +1,43 @@
-.sections-graduations-courses {
-    justify-self: center;
+@media screen and (max-width: 800px) {
+    .sections-graduations-courses div *{
+        margin: 8px;
+        padding: 0px;
+        text-align: center;
+    }
+    .sections-graduations-courses div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+        margin: 3px;
+        border-top-style: dotted;
+        border-left-style: dotted;
+        border-color: rgb(63,61,61, 0.1);
+    }
 }
 
-.sections-graduations-courses div {
-    display: grid;
-    grid-template-columns: 1fr 1fr [end];
-    grid-row-gap: 0px;
-    grid-column-gap: 20px;
 
-    margin-bottom: 25px;
-}
 
-.sections-graduations-courses div > * {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.sections-graduations-courses-foundations {
-    grid-area: 1 / 2/ 2 end/ 2;
-    align-self: center;
-    margin: 0;
-    padding: 0;
+@media screen and (min-width: 800px) {
+    .sections-graduations-courses {
+        justify-self: center;
+    }
+    .sections-graduations-courses div {
+        display: grid;
+        grid-template-columns: 2fr 1fr [end];
+        grid-row-gap: 0px;
+        grid-column-gap: 20px;
+        margin-bottom: 25px;
+    }
+    .sections-graduations-courses div>* {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .sections-graduations-courses-foundations {
+        grid-area: 1 / 2/ 2 end/ 2;
+        align-self: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
 }

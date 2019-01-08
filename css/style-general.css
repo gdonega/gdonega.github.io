@@ -1,14 +1,9 @@
 /* Background */
 #html {
     background-color: #3f3d3d;
-    padding-right: 2vw;
-    padding-left: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
+    padding: 5vw;
 }
 
 * {
     box-sizing: border-box;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
 }

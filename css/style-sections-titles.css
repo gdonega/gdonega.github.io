@@ -2,13 +2,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /* padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 80px;
-    margin-bottom: 0px; */
-
-
-    
+    margin-bottom: 10px;    
 }
 
 .sections-titles img {

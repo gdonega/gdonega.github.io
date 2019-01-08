@@ -1,7 +1,10 @@
 /* Document */
 #document {
     background-color: #ffffff;
-    padding: 2vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
 /* Document.header*/
@@ -9,8 +12,6 @@
     justify-self: center;
     align-self: center;
     text-align: center;
-
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 

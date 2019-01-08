@@ -1,18 +1,15 @@
 .sections {
-    /* padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 0px;
-    padding-bottom: 0px; */
-    margin-left: 8vw;
-    margin-right: 8vw;
-    margin-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .sections-body{
-    /* margin-left: 50px;
-    margin-top: 16px;
-    margin-bottom: 16px; */
-
+    width: 60vw;
+    
+    align-self: center;
+    justify-self: center;
+    
 }
 
 

@@ -1,4 +1,8 @@
 @media screen and (max-width: 800px) {
+    .sections-history {
+        width: 100%;
+        padding-top: 10px;
+    }
     .sections-history div *{
         margin: 8px;
         padding: 0px;

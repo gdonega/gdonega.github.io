@@ -1,4 +1,11 @@
+@media screen and (max-width: 800px) {
+    .sections-projects-desc{
+        padding-left: 10px;
+    }    
+}
+
 .sections-projects-desc h4 {
+    padding-top: 10px;
     margin: 0px;
     text-decoration: underline;
 }

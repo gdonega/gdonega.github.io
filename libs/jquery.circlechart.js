@@ -9,7 +9,7 @@
 					guage: 2,
 					coverBg: '#fff',
 					bgColor: '#efefef',
-					fillColor: '#5c93c8',
+					fillColor: '#000',
 					percentSize: '15px',
 					percentWeight: 'normal'
 				},

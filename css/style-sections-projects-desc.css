@@ -7,6 +7,9 @@
     padding-left: 0px;
 }
 
-.sections-projects-desc div {
+.sections-projects-desc div:not(:last-child) {
     margin-bottom: 80px;
+}
+.sections-projects-desc div:last-child {
+    margin-bottom: 0px;
 }
